@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="604" height="1208" viewBox="0 0 604 1208" fill="none">
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="5" dy="8" stdDeviation="0" flood-color="#1E2636" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#rough)" stroke="#1E2636" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M127 56C216 24 394 31 478 66" stroke="#FF4F81" stroke-width="13"/>
+    <text x="302" y="105" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="42" font-weight="700">CREATIVE FLOW</text>
+
+    <g filter="url(#shadow)" transform="rotate(-2 302 250)">
+      <path d="M112 151C203 137 410 143 488 165L479 348C373 361 219 357 119 339Z" fill="#FFD84D"/>
+      <path d="M112 151C203 137 410 143 488 165L479 348C373 361 219 357 119 339Z"/>
+      <path d="M106 158C212 146 402 150 480 171" stroke="#FFFFFF" stroke-width="4" opacity="0.72"/>
+      <circle cx="186" cy="247" r="44" fill="#FF6B6B"/>
+      <path d="M186 220V276M158 248H214" stroke="#FFFFFF" stroke-width="10"/>
+      <text x="346" y="246" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="66" font-weight="700">BRIEF</text>
+      <text x="346" y="296" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="2">GOAL • AUDIENCE</text>
+    </g>
+
+    <path d="M300 371C267 401 334 423 297 461C271 487 287 505 311 524" stroke="#1E2636" stroke-width="9"/>
+    <path d="M280 500L312 527L327 487" fill="none"/>
+    <circle cx="315" cy="408" r="8" fill="#20C7C9" stroke="none"/>
+
+    <g filter="url(#shadow)" transform="rotate(2 302 688)">
+      <path d="M88 535C190 521 405 529 511 548L501 834C378 851 219 847 99 827Z" fill="#86E4E1"/>
+      <path d="M88 535C190 521 405 529 511 548L501 834C378 851 219 847 99 827Z"/>
+      <rect x="126" y="580" width="142" height="198" rx="9" fill="#FFFFFF"/>
+      <path d="M126 624H268"/>
+      <circle cx="149" cy="603" r="8" fill="#FF4F81" stroke="none"/>
+      <circle cx="176" cy="603" r="8" fill="#FFD84D" stroke="none"/>
+      <circle cx="203" cy="603" r="8" fill="#7357FF" stroke="none"/>
+      <rect x="148" y="650" width="98" height="38" rx="5" fill="#7357FF" stroke="none"/>
+      <path d="M148 715H232M148 741H214" stroke-width="6"/>
+      <text x="384" y="650" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="59" font-weight="700">DESIGN</text>
+      <text x="384" y="700" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Arial, sans-serif" font-size="22" font-weight="700">UI/UX + VISUAL</text>
+      <path d="M333 749C359 720 392 772 418 740C438 716 466 727 475 753" stroke="#FF4F81"/>
+      <circle cx="333" cy="749" r="10" fill="#FFD84D"/>
+      <circle cx="475" cy="753" r="10" fill="#7357FF"/>
+    </g>
+
+    <path d="M302 859C328 891 272 918 304 953" stroke="#1E2636" stroke-width="9"/>
+    <path d="M278 930L305 957L323 919"/>
+
+    <g filter="url(#shadow)">
+      <path d="M302 956L347 1001L408 974L422 1035L491 1052L445 1099L472 1150L400 1146L373 1191L309 1158L252 1191L222 1140L155 1148L175 1091L120 1055L185 1029L188 974L250 1000Z" fill="#FF6B9B"/>
+      <path d="M302 956L347 1001L408 974L422 1035L491 1052L445 1099L472 1150L400 1146L373 1191L309 1158L252 1191L222 1140L155 1148L175 1091L120 1055L185 1029L188 974L250 1000Z"/>
+      <text x="304" y="1089" text-anchor="middle" fill="#FFFFFF" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="66" font-weight="700">IMPACT!</text>
+      <path d="M233 1114C281 1126 349 1127 392 1111" stroke="#FFD84D" stroke-width="9"/>
+    </g>
+  </g>
+</svg>

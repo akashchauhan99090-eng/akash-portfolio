@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1249" height="624" viewBox="0 0 1249 624" fill="none">
+  <defs>
+    <filter id="rough" x="-8%" y="-15%" width="116%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.014" numOctaves="2" seed="17" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#rough)" stroke="#1E2636" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M125 137C343 94 882 97 1108 145" stroke="#7357FF" stroke-width="15"/>
+
+    <g transform="translate(110 202)">
+      <path d="M0 73L22 52L7 24L43 20L57 -13L79 16L114 4L112 41L144 59L113 81L119 117L81 107L60 136L42 104L5 109L15 77Z" fill="#FFD84D"/>
+      <circle cx="61" cy="61" r="27" fill="#FFFFFF"/>
+      <path d="M61 44V79M44 61H79" stroke="#FF4F81"/>
+    </g>
+
+    <text x="332" y="329" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="76" font-weight="700">IDEA</text>
+    <path d="M452 295H536"/>
+    <path d="M510 271L539 295L510 320" fill="none"/>
+    <text x="689" y="329" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="76" font-weight="700">DESIGN</text>
+    <path d="M852 295H936"/>
+    <path d="M910 271L939 295L910 320" fill="none"/>
+    <text x="1083" y="329" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="76" font-weight="700">MOTION</text>
+
+    <path d="M245 380C433 423 821 426 1017 381" stroke="#FF4F81" stroke-width="13"/>
+    <circle cx="246" cy="380" r="12" fill="#20C7C9" stroke="none"/>
+    <circle cx="1017" cy="381" r="12" fill="#FFD84D" stroke="none"/>
+    <text x="632" y="487" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="3">UI/UX  •  CAMPAIGN  •  AI CREATIVE</text>
+
+    <path d="M1055 443L1071 407L1087 443L1124 458L1087 474L1071 512L1055 475L1020 459Z" fill="#7357FF"/>
+  </g>
+</svg>

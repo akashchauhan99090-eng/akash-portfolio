@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="880" viewBox="0 0 1760 880" fill="none">
+  <defs>
+    <filter id="rough" x="-8%" y="-12%" width="116%" height="124%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="8" dy="10" stdDeviation="0" flood-color="#1E2636" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#rough)" stroke="#1E2636" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <g filter="url(#shadow)" transform="rotate(-3 425 420)">
+      <path d="M144 196C281 151 531 160 681 209L643 671C479 704 280 684 126 642Z" fill="#FFF3C4"/>
+      <path d="M144 196C281 151 531 160 681 209L643 671C479 704 280 684 126 642Z"/>
+      <text x="405" y="264" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="55" font-weight="700">DESIGN KIT</text>
+
+      <g transform="translate(214 319)">
+        <rect x="0" y="0" width="130" height="130" rx="20" fill="#102A43"/>
+        <text x="65" y="88" text-anchor="middle" fill="#49C8FF" stroke="none" font-family="Arial, sans-serif" font-size="58" font-weight="700">Ps</text>
+      </g>
+      <g transform="translate(384 319)">
+        <rect x="0" y="0" width="130" height="130" rx="20" fill="#331800"/>
+        <text x="65" y="88" text-anchor="middle" fill="#FF9A26" stroke="none" font-family="Arial, sans-serif" font-size="58" font-weight="700">Ai</text>
+      </g>
+      <g transform="translate(214 492)">
+        <rect x="0" y="0" width="130" height="130" rx="20" fill="#22154B"/>
+        <text x="65" y="88" text-anchor="middle" fill="#C69AFF" stroke="none" font-family="Arial, sans-serif" font-size="58" font-weight="700">Ae</text>
+      </g>
+      <g transform="translate(384 492)">
+        <rect x="0" y="0" width="130" height="130" rx="20" fill="#17104B"/>
+        <text x="65" y="88" text-anchor="middle" fill="#9D9BFF" stroke="none" font-family="Arial, sans-serif" font-size="58" font-weight="700">Pr</text>
+      </g>
+      <path d="M560 345L599 306M570 396L627 381M562 448L617 475" stroke="#FF4F81"/>
+    </g>
+
+    <path d="M718 400C795 342 862 349 918 397C965 437 1001 430 1044 394" fill="none"/>
+    <path d="M1007 370L1047 393L1019 431" fill="none"/>
+    <circle cx="814" cy="362" r="12" fill="#20C7C9" stroke="none"/>
+    <circle cx="929" cy="417" r="12" fill="#FFD84D" stroke="none"/>
+    <text x="879" y="307" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="40" font-weight="700">MAKE IT MOVE</text>
+
+    <g filter="url(#shadow)" transform="rotate(2 1355 437)">
+      <path d="M1084 176C1219 145 1478 150 1617 194L1600 676C1448 708 1228 698 1074 660Z" fill="#BEEFEB"/>
+      <path d="M1084 176C1219 145 1478 150 1617 194L1600 676C1448 708 1228 698 1074 660Z"/>
+      <rect x="1150" y="238" width="398" height="286" rx="18" fill="#FFFFFF"/>
+      <path d="M1150 296H1548"/>
+      <circle cx="1184" cy="267" r="10" fill="#FF4F81" stroke="none"/>
+      <circle cx="1220" cy="267" r="10" fill="#FFD84D" stroke="none"/>
+      <circle cx="1256" cy="267" r="10" fill="#7357FF" stroke="none"/>
+      <circle cx="1349" cy="406" r="73" fill="#7357FF"/>
+      <path d="M1330 367L1391 406L1330 445Z" fill="#FFFFFF" stroke="none"/>
+      <path d="M1200 474C1248 438 1284 498 1334 465C1389 428 1434 489 1498 445" stroke="#FF4F81"/>
+      <circle cx="1200" cy="474" r="12" fill="#FFD84D"/>
+      <circle cx="1498" cy="445" r="12" fill="#20C7C9"/>
+      <path d="M1191 569H1512M1191 610H1512"/>
+      <path d="M1281 548V630M1398 548V630" stroke="#FF4F81"/>
+      <path d="M1506 211L1522 171L1537 211L1578 225L1538 242L1522 284L1505 243L1467 226Z" fill="#FFD84D"/>
+      <text x="1350" y="666" text-anchor="middle" fill="#1E2636" stroke="none" font-family="Marker Felt, Chalkboard SE, sans-serif" font-size="48" font-weight="700">MOTION + AI</text>
+    </g>
+  </g>
+</svg>
