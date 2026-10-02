@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <defs>
+    <pattern id="tiles" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="#c9c4bb"/>
+      <rect x="3" y="3" width="94" height="94" fill="#f2ecdf"/>
+      <rect x="103" y="3" width="94" height="94" fill="#ebe4d7"/>
+      <rect x="3" y="103" width="94" height="94" fill="#eee7da"/>
+      <rect x="103" y="103" width="94" height="94" fill="#f4eddf"/>
+      <path d="M8 10h62M108 10h54M8 110h48M108 110h69" stroke="#fffaf1" stroke-opacity=".45" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#fff9ee" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#b6a993" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="500" fill="url(#tiles)"/>
+  <rect width="1000" height="500" fill="url(#sheen)"/>
+</svg>
