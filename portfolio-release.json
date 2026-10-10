@@ -1,9 +1,11 @@
 {
-  "version": "2026-10-11-mobile-audio",
+  "version": "2026-10-11-desktop-quality",
   "defaultView": "3d",
   "profileView": "?view=portfolio",
   "interactiveView": "?view=3d",
   "publicAccess": "no-login",
   "music": "original-studio-breeze",
-  "mobileAvatar": "models/akash-avatar-mobile.glb"
+  "mobileAvatar": "models/akash-avatar-mobile.glb",
+  "desktopAvatar": "models/akash-entry-avatar.glb",
+  "desktopQuality": "original"
 }
