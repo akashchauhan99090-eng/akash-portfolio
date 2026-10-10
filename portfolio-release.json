@@ -1,6 +1,7 @@
 {
-  "version": "2026-10-10-hr-ready",
-  "defaultView": "portfolio",
+  "version": "2026-10-10-3d-first",
+  "defaultView": "3d",
+  "profileView": "?view=portfolio",
   "interactiveView": "?view=3d",
   "publicAccess": "no-login"
 }
