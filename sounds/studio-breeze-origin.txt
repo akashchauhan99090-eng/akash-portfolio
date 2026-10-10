@@ -1,0 +1,10 @@
+Studio Breeze - Akash Singh Portfolio
+
+Original procedural instrumental created for this portfolio on 2026-10-11.
+The melody, arrangement and sound synthesis are defined in the source script
+scripts/create-studio-music.mjs. No third-party song, recording, loop, sample
+pack, vocal or reverb impulse was imported. This is not a cover or remix of
+the previously used track.
+
+Warm synthesized keys, plucked arpeggios and soft bass; 78 BPM.
+Encoded as AAC for native playback, including Safari and mobile browsers.
