@@ -1,7 +1,9 @@
 {
-  "version": "2026-10-10-3d-first",
+  "version": "2026-10-11-mobile-audio",
   "defaultView": "3d",
   "profileView": "?view=portfolio",
   "interactiveView": "?view=3d",
-  "publicAccess": "no-login"
+  "publicAccess": "no-login",
+  "music": "original-studio-breeze",
+  "mobileAvatar": "models/akash-avatar-mobile.glb"
 }
